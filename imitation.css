@@ -2,4 +2,11 @@
 main{
   height: 11.4in;
   width: 7.7in;
+  background-color: orange;
+}
+div.generalmills{
+  color: blue;
+  background-color: white;
+  height: .75in;
+  width: 1.5in;
 }
