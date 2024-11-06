@@ -21,10 +21,30 @@ div.angleone{
 div.angletwo{
   width: 0px;
   background-color: black;
-  border-right: 40px solid orange;
+  border-right: 43px solid orange;
   border-top: 20px solid white;
-  border-left: 40px solid white;
+  border-left: 43px solid white;
   border-bottom: 20px solid orange;
-  margin-left: 60px;
+  margin-left: 59px;
   margin-top: -40px;
+}
+div.anglethree{
+  background-color: black;
+  width: 0px;
+  border-right: 20px solid orange;
+  border-top: .375in solid white;
+  border-left: 20px solid white;
+  border-bottom: .375in solid orange;
+  margin-top: -112px;
+  margin-left:1.5in;
+}
+div.reeseone{
+  width: 1.5in;
+  height: 1in;
+  background-color: brown;
+  margin-left: 6.2in;
+}
+p.madewith{
+  color: brown;
+  margin-left: 0px;
 }
