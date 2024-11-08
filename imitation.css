@@ -1,4 +1,12 @@
 /* CSS for your imitation here */
+@font-face {
+  font-family: REESES;
+  src: url(WildRide.ttf);
+}
+@font-face{
+  font-family: REESES2;
+  src: url(WildRideBackfill.ttf);
+}
 main{
   height: 11.4in;
   width: 7.7in;
