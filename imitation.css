@@ -61,3 +61,22 @@ h2.real{
   margin-left: 3.75in;
   margin-top: -42px;
 }
+h2.reeses{
+  color: brown;
+  margin-left: 2.5in;
+}
+p.peanutbutter{
+  color: brown;
+  margin-left: 3.65in;
+  margin-top: -42px;
+}
+p.reesespuffsone{
+  font-family: REESES;
+  font-size: 70px;
+  color: yellow;
+}
+p.reesespuffstwo{
+  font-family: REESES2;
+  font-size: 70px;
+  color: brown;
+}
