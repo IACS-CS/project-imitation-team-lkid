@@ -72,15 +72,21 @@ p.peanutbutter{
 }
 p.reesespuffsone{
   font-family: REESES2;
-  font-size: 100px;
+  font-size: 150px;
   color: brown;
   margin-top: -5px;
   margin-left: 2.5in;
 }
 p.reesespuffstwo{
   font-family: REESES;
-  font-size: 100px;
+  font-size: 150px;
   color: yellow;
-  margin-top: -265px;
+  margin-top: -400px;
   margin-left: 2.5in;
+}
+div.bowl{
+  background-color: brown;
+  height: 3in;
+  width: 5in;
+  margin-left: 1.45in;
 }

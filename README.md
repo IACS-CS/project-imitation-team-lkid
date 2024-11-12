@@ -6,7 +6,7 @@
 
 Note, if you're having trouble running the project, try opening a "Terminal" below and typing:
 
-```sh
+```
 npm run start
 ```
 
