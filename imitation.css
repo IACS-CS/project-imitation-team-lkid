@@ -1,4 +1,3 @@
-/* CSS for your imitation here */
 @font-face {
   font-family: REESES;
   src: url(WildRide.ttf);
@@ -89,4 +88,12 @@ div.bowl{
   height: 3in;
   width: 5in;
   margin-left: 1.45in;
+}
+div.oz{
+  background-color: yellow;
+  color: brown;
+  height: 1in;
+  width: 1.5in;
+  margin-left: 6.2in;
+  margin-top: 66px;
 }
