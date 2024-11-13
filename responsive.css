@@ -3,23 +3,83 @@
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 768px) {
   /* Code for mobile phones only: */
-
+main {
+   height: 5.7in;
+    width: 3.85in;
+}
+  div.generalmills {
+    width: .75in;
+    height: .375in;
+  }
+  div.angleone {
+  border-right: 15px solid white;
+  border-top: 10px solid white;
+  border-left: 15px solid orange;
+  border-bottom: 10px solid orange;
+  }
+  div.angletwo {
+  background-color: black;
+  border-right: 22px solid orange;
+  border-top: 10px solid white;
+  border-left: 22px solid white;
+  border-bottom: 10px solid orange;
+  margin-left: 28.5px;
+  margin-top: -19px;
+  }
+  div.anglethree {
+  border-right: 12px solid orange;
+  border-top: .19255in solid white;
+  border-left: 12px solid white;
+  border-bottom: .19255in solid orange;
+  margin-top: -55.5px;
+  margin-left:.75in;
+  }
   /* Mobile label */
   main::before {
     content: "Mobile";
-    background-color: #c8787888;
+   
   }
+
   /* End mobile label */
 }
 
 /* BEGIN MEDIUM WIDTH RULES */
-@media only screen and (min-width: 768px) and (max-width: 1399px) {
+@media only screen and (min-width: 769px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
-
+main {
+  height: 11.4in;
+  width: 7.7in;
+}
+div.generalmills {
+  height: .75in;
+  width: 1.5in;
+}
+div.angleone {
+  border-right: 30px solid white;
+  border-top: 20px solid white;
+  border-left: 30px solid orange;
+  border-bottom: 20px solid orange;
+}
+div.angletwo {
+  background-color: black;
+  border-right: 43px solid orange;
+  border-top: 20px solid white;
+  border-left: 43px solid white;
+  border-bottom: 20px solid orange;
+  margin-left: 59px;
+  margin-top: -40px;
+}
+div.anglethree {
+  border-right: 20px solid orange;
+  border-top: .375in solid white;
+  border-left: 20px solid white;
+  border-bottom: .375in solid orange;
+  margin-top: -112px;
+  margin-left:1.5in;
+}
   /* Laptop label */
   main::before {
     content: "Laptop";
-    background-color: #45454588;
   }
   /* End laptop label */
 }
@@ -31,7 +91,6 @@
   /* Widescreen label */
   main::before {
     content: "Wide";
-    background-color: #00438888;
   }
   /* End widescreen label */
 }
@@ -44,6 +103,7 @@ main::before {
   bottom: 2px;
   right: 2px;
   color: #efefef;
+  background: #222;
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -52,4 +112,82 @@ main::before {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@font-face {
+  font-family: REESES;
+  src: url(WildRide.ttf);
+}
+@font-face{
+  font-family: REESES2;
+  src: url(WildRideBackfill.ttf);
+}
+main{
+  background-color: orange;
+}
+div.generalmills{
+  color: blue;
+  background-color: white;
+}
+div.angleone{
+  width: 0px;
+  background-color: black;
+}
+div.angletwo{
+  width: 0px;
+}
+div.anglethree{
+  background-color: black;
+  width: 0px;
+}
+div.reeseone{
+  width: 1.5in;
+  height: 1in;
+  background-color: brown;
+  margin-left: 6.2in;
+}
+p.madewith{
+  color: brown;
+  margin-left: 3in;
+}
+h2.real{
+  color: yellow;
+  margin-left: 3.75in;
+  margin-top: -42px;
+}
+h2.reeses{
+  color: brown;
+  margin-left: 2.5in;
+}
+p.peanutbutter{
+  color: brown;
+  margin-left: 3.65in;
+  margin-top: -42px;
+}
+p.reesespuffsone{
+  font-family: REESES2;
+  font-size: 150px;
+  color: brown;
+  margin-top: -5px;
+  margin-left: 2.5in;
+}
+p.reesespuffstwo{
+  font-family: REESES;
+  font-size: 150px;
+  color: yellow;
+  margin-top: -400px;
+  margin-left: 2.5in;
+}
+div.bowl{
+  background-color: brown;
+  height: 3in;
+  width: 5in;
+  margin-left: 1.45in;
+}
+div.oz{
+  background-color: yellow;
+  color: brown;
+  height: 1in;
+  width: 1.5in;
+  margin-left: 6.2in;
+  margin-top: 66px;
 }
