@@ -34,6 +34,47 @@ main {
   margin-top: -55.5px;
   margin-left:.75in;
   }
+  div.reeseone{
+  width: .75in;
+  height: .5in;
+  margin-left: 3.1in;
+  }
+  p.madewith{
+  font-size: smaller;
+  color: brown;
+  margin-left: 1.5in;
+}
+h2.real{
+  color: yellow;
+  margin-left: 2.1in;
+  margin-top: -31px;
+  font-size: medium;
+}
+h2.reeses{
+  color: brown;
+  margin-left: 1.4in;
+  font-size: medium;
+}
+p.peanutbutter{
+  color: brown;
+  margin-left: 2.15in;
+  margin-top: -30px;
+  font-size: smaller;
+}
+p.reesespuffsone{
+  font-family: REESES2;
+  font-size: 90px;
+  color: brown;
+  margin-top: -5px;
+  margin-left: 1.4in;
+}
+p.reesespuffstwo{
+  font-family: REESES;
+  font-size: 90px;
+  color: yellow;
+  margin-top: -200px;
+  margin-left: 1.4in;
+}
   /* Mobile label */
   main::before {
     content: "Mobile";
@@ -77,6 +118,43 @@ div.anglethree {
   margin-top: -112px;
   margin-left:1.5in;
 }
+  div.reeseone{
+  width: 1.5in;
+  height: 1in;
+  margin-left: 6.2in;
+}
+p.madewith{
+  color: brown;
+  margin-left: 3in;
+}
+h2.real{
+  color: yellow;
+  margin-left: 3.75in;
+  margin-top: -42px;
+}
+h2.reeses{
+  color: brown;
+  margin-left: 2.5in;
+}
+p.peanutbutter{
+  color: brown;
+  margin-left: 3.65in;
+  margin-top: -42px;
+}
+p.reesespuffsone{
+  font-family: REESES2;
+  font-size: 150px;
+  color: brown;
+  margin-top: -5px;
+  margin-left: 2.5in;
+}
+p.reesespuffstwo{
+  font-family: REESES;
+  font-size: 150px;
+  color: yellow;
+  margin-top: -400px;
+  margin-left: 2.5in;
+}
   /* Laptop label */
   main::before {
     content: "Laptop";
@@ -87,7 +165,74 @@ div.anglethree {
 /* BEGIN WIDE SCREEN RULES */
 @media only screen and (min-width: 1400px) {
   /* Code for wide screen only */
-
+main {
+  height: 11.4in;
+  width: 7.7in;
+}
+div.generalmills {
+  height: .75in;
+  width: 1.5in;
+}
+div.angleone {
+  border-right: 30px solid white;
+  border-top: 20px solid white;
+  border-left: 30px solid orange;
+  border-bottom: 20px solid orange;
+}
+div.angletwo {
+  background-color: black;
+  border-right: 43px solid orange;
+  border-top: 20px solid white;
+  border-left: 43px solid white;
+  border-bottom: 20px solid orange;
+  margin-left: 59px;
+  margin-top: -40px;
+}
+div.anglethree {
+  border-right: 20px solid orange;
+  border-top: .375in solid white;
+  border-left: 20px solid white;
+  border-bottom: .375in solid orange;
+  margin-top: -112px;
+  margin-left:1.5in;
+}
+  div.reeseone{
+  width: 1.5in;
+  height: 1in;
+  margin-left: 6.2in;
+}
+p.madewith{
+  color: brown;
+  margin-left: 3in;
+}
+h2.real{
+  color: yellow;
+  margin-left: 3.75in;
+  margin-top: -42px;
+}
+h2.reeses{
+  color: brown;
+  margin-left: 2.5in;
+}
+p.peanutbutter{
+  color: brown;
+  margin-left: 3.65in;
+  margin-top: -42px;
+}
+p.reesespuffsone{
+  font-family: REESES2;
+  font-size: 150px;
+  color: brown;
+  margin-top: -5px;
+  margin-left: 2.5in;
+}
+p.reesespuffstwo{
+  font-family: REESES;
+  font-size: 150px;
+  color: yellow;
+  margin-top: -400px;
+  margin-left: 2.5in;
+}
   /* Widescreen label */
   main::before {
     content: "Wide";
@@ -140,43 +285,24 @@ div.anglethree{
   width: 0px;
 }
 div.reeseone{
-  width: 1.5in;
-  height: 1in;
   background-color: brown;
-  margin-left: 6.2in;
 }
 p.madewith{
   color: brown;
-  margin-left: 3in;
 }
 h2.real{
   color: yellow;
-  margin-left: 3.75in;
-  margin-top: -42px;
+
 }
 h2.reeses{
   color: brown;
-  margin-left: 2.5in;
 }
 p.peanutbutter{
   color: brown;
-  margin-left: 3.65in;
-  margin-top: -42px;
+
 }
-p.reesespuffsone{
-  font-family: REESES2;
-  font-size: 150px;
-  color: brown;
-  margin-top: -5px;
-  margin-left: 2.5in;
-}
-p.reesespuffstwo{
-  font-family: REESES;
-  font-size: 150px;
-  color: yellow;
-  margin-top: -400px;
-  margin-left: 2.5in;
-}
+
+
 div.bowl{
   background-color: brown;
   height: 3in;
