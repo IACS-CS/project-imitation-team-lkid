@@ -34,7 +34,7 @@ main {
   margin-top: -55.5px;
   margin-left:.75in;
   }
-  div.reeseone{
+  img.reeseone{
   width: .75in;
   height: .5in;
   margin-left: 3.1in;
@@ -72,8 +72,23 @@ p.reesespuffstwo{
   font-family: REESES;
   font-size: 90px;
   color: yellow;
-  margin-top: -200px;
+  margin-top: -240px;
   margin-left: 1.4in;
+}
+img.bowl{
+  background-color: brown;
+  height: 1.5in;
+  width: 2.5in;
+  margin-left: .67in;
+  margin-top: -80px;
+}
+div.oz{
+  background-color: yellow;
+  color: brown;
+  height: .5in;
+  width: .75in;
+  margin-left: 3.1in;
+  margin-top: 48px;
 }
   /* Mobile label */
   main::before {
@@ -118,7 +133,7 @@ div.anglethree {
   margin-top: -112px;
   margin-left:1.5in;
 }
-  div.reeseone{
+  img.reeseone{
   width: 1.5in;
   height: 1in;
   margin-left: 6.2in;
@@ -154,6 +169,20 @@ p.reesespuffstwo{
   color: yellow;
   margin-top: -400px;
   margin-left: 2.5in;
+}
+img.bowl{
+  background-color: brown;
+  height: 3in;
+  width: 5in;
+  margin-left: 1.45in;
+}
+div.oz{
+  background-color: yellow;
+  color: brown;
+  height: 1in;
+  width: 1.5in;
+  margin-left: 6.2in;
+  margin-top: 66px;
 }
   /* Laptop label */
   main::before {
@@ -196,7 +225,7 @@ div.anglethree {
   margin-top: -112px;
   margin-left:1.5in;
 }
-  div.reeseone{
+  img.reeseone{
   width: 1.5in;
   height: 1in;
   margin-left: 6.2in;
@@ -232,6 +261,20 @@ p.reesespuffstwo{
   color: yellow;
   margin-top: -400px;
   margin-left: 2.5in;
+}
+img.bowl{
+  background-color: brown;
+  height: 3in;
+  width: 5in;
+  margin-left: 1.45in;
+}
+div.oz{
+  background-color: yellow;
+  color: brown;
+  height: 1in;
+  width: 1.5in;
+  margin-left: 6.2in;
+  margin-top: 66px;
 }
   /* Widescreen label */
   main::before {
@@ -284,9 +327,7 @@ div.anglethree{
   background-color: black;
   width: 0px;
 }
-div.reeseone{
-  background-color: brown;
-}
+
 p.madewith{
   color: brown;
 }
@@ -303,17 +344,4 @@ p.peanutbutter{
 }
 
 
-div.bowl{
-  background-color: brown;
-  height: 3in;
-  width: 5in;
-  margin-left: 1.45in;
-}
-div.oz{
-  background-color: yellow;
-  color: brown;
-  height: 1in;
-  width: 1.5in;
-  margin-left: 6.2in;
-  margin-top: 66px;
-}
+
